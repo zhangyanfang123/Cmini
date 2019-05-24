@@ -1,0 +1,107 @@
+_<program>
+ |_<segment>
+ | |_<type>---->"int" 
+ | |_<def>---->"main" 
+ |  |_<idtail>---->"(" 
+ |   |_<para>---->")" 
+ |   |_<funtail>
+ |    |_<block>---->"{" 
+ |     |_<subprogram>
+ |      |_<localdef>
+ |      | |_<type>---->"int" 
+ |      | |_<defdata>---->"i" 
+ |      | | |_<varrdef>
+ |      | |  |_<init>---->"=" 
+ |      | |   |_<expr>
+ |      | |    |_<assexpr>
+ |      | |     |_<orexpr>
+ |      | |     | |_<andexpr>
+ |      | |     | | |_<cmpexpr>
+ |      | |     | | | |_<aloexpr>
+ |      | |     | | | | |_<item>
+ |      | |     | | | | | |_<factor>
+ |      | |     | | | | | | |_<val>
+ |      | |     | | | | | |  |_<elem>
+ |      | |     | | | | | |  | |_<literal>---->"0" 
+ |      | |     | | | | | |  |_<rop>
+ |      | |     | | | | | |_<itemtail>
+ |      | |     | | | | |_<alotail>
+ |      | |     | | | |_<cmptail>
+ |      | |     | | |_<andtail>
+ |      | |     | |_<ortail>
+ |      | |     |_<asstail>
+ |      | |_<deflist>---->";" 
+ |      |_<subprogram>
+ |       |_<statement>
+ |       | |_<readstat>---->"read" ---->"(" ---->"i" ---->")" ---->";" 
+ |       |_<subprogram>
+ |        |_<statement>
+ |        | |_<altexpr>
+ |        |  |_<expr>
+ |        |   |_<assexpr>
+ |        |    |_<orexpr>
+ |        |    | |_<andexpr>
+ |        |    | | |_<cmpexpr>
+ |        |    | | | |_<aloexpr>
+ |        |    | | | | |_<item>
+ |        |    | | | | | |_<factor>
+ |        |    | | | | | | |_<val>
+ |        |    | | | | | |  |_<elem>---->"i" 
+ |        |    | | | | | |  | |_<idexpr>
+ |        |    | | | | | |  |_<rop>
+ |        |    | | | | | |_<itemtail>
+ |        |    | | | | |_<alotail>
+ |        |    | | | |_<cmptail>
+ |        |    | | |_<andtail>
+ |        |    | |_<ortail>
+ |        |    |_<asstail>
+ |        |     |_<ass>---->"=" 
+ |        |     |_<orexpr>
+ |        |     | |_<andexpr>
+ |        |     | | |_<cmpexpr>
+ |        |     | | | |_<aloexpr>
+ |        |     | | | | |_<item>
+ |        |     | | | | | |_<factor>
+ |        |     | | | | | | |_<val>
+ |        |     | | | | | |  |_<elem>---->"i" 
+ |        |     | | | | | |  | |_<idexpr>
+ |        |     | | | | | |  |_<rop>
+ |        |     | | | | | |_<itemtail>
+ |        |     | | | | |_<alotail>
+ |        |     | | | |  |_<adds>---->"+" 
+ |        |     | | | |  |_<item>
+ |        |     | | | |  | |_<factor>
+ |        |     | | | |  | | |_<val>
+ |        |     | | | |  | |  |_<elem>
+ |        |     | | | |  | |  | |_<literal>---->"1" 
+ |        |     | | | |  | |  |_<rop>
+ |        |     | | | |  | |_<itemtail>
+ |        |     | | | |  |_<alotail>
+ |        |     | | | |_<cmptail>
+ |        |     | | |_<andtail>
+ |        |     | |_<ortail>
+ |        |     |_<asstail>---->";" 
+ |        |_<subprogram>
+ |         |_<statement>
+ |         | |_<writestat>---->"write" ---->"(" 
+ |         |  |_<arg>
+ |         |   |_<expr>
+ |         |    |_<assexpr>
+ |         |     |_<orexpr>
+ |         |     | |_<andexpr>
+ |         |     | | |_<cmpexpr>
+ |         |     | | | |_<aloexpr>
+ |         |     | | | | |_<item>
+ |         |     | | | | | |_<factor>
+ |         |     | | | | | | |_<val>
+ |         |     | | | | | |  |_<elem>---->"i" 
+ |         |     | | | | | |  | |_<idexpr>
+ |         |     | | | | | |  |_<rop>
+ |         |     | | | | | |_<itemtail>
+ |         |     | | | | |_<alotail>
+ |         |     | | | |_<cmptail>
+ |         |     | | |_<andtail>
+ |         |     | |_<ortail>
+ |         |     |_<asstail>---->")" ---->";" 
+ |         |_<subprogram>---->"}" 
+ |_<program>

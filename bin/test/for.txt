@@ -1,0 +1,9 @@
+int main()
+{
+    int i;
+    for(i=0;i<15;i=i+1)
+    {
+        write(i);
+        printf("\n");
+    }
+}

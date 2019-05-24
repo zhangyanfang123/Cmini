@@ -1,0 +1,16 @@
+op_entry main 
+op_dec a 
+op_dec b 
+L2:
+op_dec L4 
+op_equ L4 a 1 
+op_jf L3 L4 
+op_as b 3 
+op_write b L5 
+op_dec L6 
+op_add L6 a 1 
+op_as a L6 
+op_jmp L2 
+L3:
+L1:
+op_exit main 
